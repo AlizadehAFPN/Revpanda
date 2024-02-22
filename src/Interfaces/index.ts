@@ -1,8 +1,8 @@
 // Types and interfaces for navigation
 
 // Importing required types from navigation libraries
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { TouchableOpacityProps } from 'react-native';
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
+import {TouchableOpacityProps} from 'react-native';
 
 // Type definition for the parameters accepted by the navigator
 export type NavigatorParamList = {

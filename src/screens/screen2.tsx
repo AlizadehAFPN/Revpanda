@@ -1,11 +1,18 @@
 // Screen2.tsx
-import React, { useState } from 'react';
-import { View, Text, KeyboardAvoidingView, SafeAreaView, Platform, TextInput } from 'react-native';
-import { ContextState, useAppContext } from '../context/AppContext';
+import React, {useState} from 'react';
+import {
+  View,
+  Text,
+  KeyboardAvoidingView,
+  SafeAreaView,
+  Platform,
+  TextInput,
+} from 'react-native';
+import {ContextState, useAppContext} from '../context/AppContext';
 import CustomButton from '../components/Button';
-import { Screen2Props } from '../Interfaces';
-import { isOtpCodeValid } from '../utils';
-import { styles } from './screenStyles';
+import {Screen2Props} from '../Interfaces';
+import {isOtpCodeValid} from '../utils';
+import {styles} from './screenStyles';
 
 // Screen2 component representing the second screen for entering verification code
 const Screen2: React.FC<Screen2Props> = () => {
@@ -13,15 +20,14 @@ const Screen2: React.FC<Screen2Props> = () => {
   const [code, setCode] = useState<string>('');
 
   // Accessing the app context to retrieve the email from the state
-  const { state }: ContextState = useAppContext();
+  const {state}: ContextState = useAppContext();
 
   // Render the screen components
   return (
     <SafeAreaView style={styles.safeArea}>
       <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-        style={styles.container}
-      >
+        style={styles.container}>
         {/* Title for the second screen */}
         <Text testID="screen2-title" style={styles.title}>
           Verification Code
