@@ -2,9 +2,9 @@
 
 ## 1. Project Repository
 
-The project is version-controlled using Git, and the repository is hosted on [GitHub](https://github.com/AlizadehAFPN/Repvanda).
+The project is version-controlled using Git, and the repository is hosted on [GitHub](https://github.com/AlizadehAFPN/Revpanda).
 
-- [Link to Repository](https://github.com/AlizadehAFPN/Repvanda)
+- [Link to Repository](https://github.com/AlizadehAFPN/Revpanda)
 
 ## 2. Setup Instructions
 
@@ -19,8 +19,8 @@ The project is version-controlled using Git, and the repository is hosted on [Gi
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/AlizadehAFPN/Repvanda.git
-cd Repvanda
+git clone https://github.com/AlizadehAFPN/Revpanda.git
+cd Revpanda
 ```
 
 ### Installing Dependencies
