@@ -84,6 +84,8 @@ Detox Test Configuration:
 
 Detox is currently configured only for iOS in this project. For configuring Detox for Android, follow the instructions provided [here] https://wix.github.io/Detox/docs/introduction/getting-started.
 Ensure you have a .detoxrc.js file in the root of the project (it may be hidden). Adjust the parameters in this file, such as the current running iOS device in the devices part and your Metro Bundler port (if different from 8081). Failing to do so may result in Detox tests not working as expected.
+    The default simulator is set to iPhone 15.
+    
 
 ```bash
 npm run detox:build
