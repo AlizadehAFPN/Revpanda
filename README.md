@@ -19,8 +19,8 @@ The project is version-controlled using Git, and the repository is hosted on [Gi
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/AlizadehAFPN/Repvanda.git
+cd Repvanda
 ```
 
 ### Installing Dependencies
